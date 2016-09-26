@@ -466,6 +466,18 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
+  
+<!--Device tree-->
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-14.0" />
+
+<!--vendors-->
+ <!--vendor/samsung is locally stored to my PC-->
+  
+  
+  
+  
   <include name="snippets/cm-14.0.xml" />
 
 </manifest>
