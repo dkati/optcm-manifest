@@ -478,6 +478,8 @@
   
 <!--vendors-->
  <!--vendor/samsung is locally stored to my PC-->
+  <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.0" />
+  
   
   
   
