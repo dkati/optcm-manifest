@@ -475,8 +475,8 @@
   <!--kernel-->
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-14.0" />
   
-<!--vendors-->
- <!--vendor/samsung is locally stored to my PC-->
+  <!--vendors-->
+  <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.0-optcm" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.0" />
   
   <!--Core-->
