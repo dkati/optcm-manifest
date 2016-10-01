@@ -481,6 +481,9 @@
   
   <!--Core-->
   <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.0" />
+  
+  <!--Base-->
+  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.0" />
  
   
   
