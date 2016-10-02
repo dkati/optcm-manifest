@@ -20,9 +20,6 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -489,9 +486,12 @@
   <project path="frameworks/opt/telephony" name="JDCTeam/android_frameworks_opt_telephony" remote="github" revision="opt-cm-14.0" />
   <project path="packages/apps/CarrierConfig" name="JDCTeam/android_packages_apps_CarrierConfig" remote="github" revision="opt-cm-14.0" />
   
+  <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  
   <!--Missing repos to be merged-->
   
-    <!--build-->
     <!--alu kernel + ramdisk + TC-->
     <!--settings app-->
     <!--setupwizard app-->
