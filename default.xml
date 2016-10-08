@@ -465,7 +465,7 @@
   <project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" clone-depth="1" groups="linux,pdk,tradefed" remote="aosp" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" clone-depth="1" groups="linux,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" clone-depth="1" groups="pdk" remote="aosp" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" clone-depth="1" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
