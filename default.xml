@@ -51,7 +51,7 @@
   <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.0" />
   
   <!--Base-->
-  <project path="frameworks/base" name="JDCTeam/android_frameworks_base" remote="github" revision="opt-cm-14.0" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="cm-14.0" />
  
   <!--Toolchains-->
    <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="master" />
@@ -70,7 +70,7 @@
   <!--Missing repos to be merged-->
   
     <!--alu kernel + ramdisk + TC-->
-    <!--settings app-->
+    <!--settings app MERGED BUT NOT TESTED -->
     <!--base-->
     <!--hardware samsung?-->
     <!--vendor cmsdk-->
