@@ -46,7 +46,7 @@
   <project path="kernel/samsung/Ramdisk" name="JDCTeam/Ramdisk" remote="github" revision="opt-cm-14.0" />
   
   <!--Vendors-->
-  <project path="vendor/cm" name="JDCTeam/android_vendor_cm" remote="github" revision="opt-cm-14.0" />
+  <project path="vendor/cm" name="dkati/android_vendor_cm" remote="github" revision="opt-cm-14.0" />
   <project path="vendor/samsung" name="JDCTeam/proprietary_vendor_samsung" remote="github" revision="jf-7.0-optcm" />
   <project path="vendor/jdc" name="JDCTeam/android_vendor_jdc" remote="github" revision="opt-cm-14.0" >
       <copyfile src="build.sh" dest="build.sh" />
