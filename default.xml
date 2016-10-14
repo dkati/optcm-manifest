@@ -21,7 +21,7 @@
   <!--Optimized CM 14-->
   
   <!--Build-->
-   <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.0" >
+   <project path="build" name="dkati/android_build"  remote="github" revision="opt-cm-14.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
