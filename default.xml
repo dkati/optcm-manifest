@@ -53,7 +53,7 @@
   </project>
   
   <!--Core-->
-  <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.0" />
+  <project path="system/core" name="JDCTeam/android_system_core" remote="github" revision="opt-cm-14.0-clean" />
   
   <!--Base-->
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" remote="github" revision="cm-14.0" />
