@@ -4,9 +4,11 @@
 <!--Optimized CM 14.0 Required projects-->
   
   <!--Build-->
-   <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.0-clean" >
+  <remove-project path="build" name="CyanogenMod/android_build" />
+  <project path="build" name="JDCTeam/android_build"  remote="github" revision="opt-cm-14.0-clean" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
