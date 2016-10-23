@@ -459,8 +459,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
+  
+  <include name="snippets/cm-14.0.xml" />
   <!--Optimized CM14.0 Projects-->
   <include name="snippets/optcm_14.xml" />
-  <include name="snippets/cm-14.0.xml" />
   
 </manifest>
