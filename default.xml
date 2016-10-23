@@ -18,14 +18,16 @@
            sync-c="true"
            sync-j="4" />
   
-  <!--Optimized CM14.0 Projects-->
-  <include name="snippets/optcm_14.xml" />
+  
   
   <!-- AOSP Projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
+  <project path="build" name="CyanogenMod/android_build" groups="pdk,tradefed">
+    <copyfile src="core/root.mk" dest="Makefile" />
+</project>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
@@ -451,7 +453,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  
+  <!--Optimized CM14.0 Projects-->
+  <include name="snippets/optcm_14.xml" />
   <include name="snippets/cm-14.0.xml" />
   
 </manifest>
