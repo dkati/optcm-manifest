@@ -290,6 +290,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
@@ -314,6 +315,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" remote="aosp" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
@@ -339,6 +341,7 @@
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" groups="pdk-fs" />
+  <project path="packages/apps/CarrierConfig" name="CyanogenMod/android_packages_apps_CarrierConfig" groups="pdk-fs" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
@@ -359,6 +362,7 @@
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" remote="aosp" />
+  <project path="packages/apps/Settings" name="CyanogenMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" groups="pdk-fs" remote="aosp" />
@@ -420,6 +424,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" clone-depth="1" groups="pdk,tools" remote="aosp" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
+  <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" remote="aosp" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" remote="aosp" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" remote="aosp" />
@@ -433,6 +438,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
+  <project path="system/sepolicy" name="CyanogenMod/android_system_sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="CyanogenMod/android_system_tools_aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
   <project path="system/update_engine" name="platform/system/update_engine" remote="aosp" />
